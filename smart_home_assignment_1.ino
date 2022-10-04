@@ -17,7 +17,7 @@ void setup()
   pinMode(9, OUTPUT);       //flame buzzer output
 }
 
-void ultra()
+int main()
 {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
