@@ -1,0 +1,8 @@
+import random
+temp_sensor_value=random.randint(17,50)
+humidity_value=random.randint(25,100)
+if temp_sensor_value>10 or humidity_value>80:
+    print("Temperature value:",temp_sensor_value)
+    print("Humidity value:",humidity_value)
+    print("Hazard detected")
+ 
