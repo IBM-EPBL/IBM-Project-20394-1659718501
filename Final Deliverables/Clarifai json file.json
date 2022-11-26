@@ -1,0 +1,888 @@
+"root":{1 item
+"json":[1 item
+0:{6 items
+"id":string"254ead09f98d409e8cc05fc12c0050ba"
+"status":{2 items
+"code":int10000
+"description":string"Ok"
+}
+"created_at":string"2022-11-19T15:33:13.543085654Z"
+"model":{17 items
+"id":string"general-image-recognition"
+"name":string"Image Recognition"
+"created_at":string"2016-03-09T17:11:39.608845Z"
+"modified_at":string"2022-09-06T18:48:59.692201Z"
+"app_id":string"main"
+"output_info":{3 items
+"output_config":{4 items
+"concepts_mutually_exclusive":boolfalse
+"closed_environment":boolfalse
+"max_concepts":int0
+"min_value":int0
+}
+"message":string"Show output_info with: GET /models/{model_id}/outp..."
+"fields_map":{1 item
+"concepts":string"softmax"
+}
+}
+"model_version":{11 items
+"id":string"aa7f35c01e0642fda5cf400f543e7c40"
+"created_at":string"2018-03-06T21:10:24.454834Z"
+"status":{2 items
+"code":int21100
+"description":string"Model is trained and ready"
+}
+"visibility":{1 item
+"gettable":int50
+}
+"app_id":string"main"
+"user_id":string"clarifai"
+"metadata":{}0 items
+"output_info":{3 items
+"output_config":{4 items
+"concepts_mutually_exclusive":boolfalse
+"closed_environment":boolfalse
+"max_concepts":int0
+"min_value":int0
+}
+"message":string"Show output_info with: GET /models/{model_id}/outp..."
+"fields_map":{1 item
+"concepts":string"softmax"
+}
+}
+"input_info":{1 item
+"fields_map":{1 item
+"image":string"images"
+}
+}
+"train_info":{}0 items
+"import_info":{}0 items
+}
+"user_id":string"clarifai"
+"input_info":{1 item
+"fields_map":{1 item
+"image":string"images"
+}
+}
+"train_info":{}0 items
+"model_type_id":string"visual-classifier"
+"visibility":{1 item
+"gettable":int50
+}
+"metadata":NULL
+"presets":{2 items
+"icon":{1 item
+"url":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+"outputs":[5 items
+0:{2 items
+"data":{1 item
+"concepts":[20 items
+0:{4 items
+"app_id":string"main"
+"id":string"ai_dngMN46t"
+"name":string"fashion"
+"value":float0.9934012
+}
+1:{4 items
+"app_id":string"main"
+"id":string"ai_6lhccv44"
+"name":string"business"
+"value":float0.96976256
+}
+2:{4 items
+"app_id":string"main"
+"id":string"ai_tdzjP35h"
+"name":string"leather"
+"value":float0.96506464
+}
+3:{4 items
+"app_id":string"main"
+"id":string"ai_1p2zMmqb"
+"name":string"retro"
+"value":float0.9541117
+}
+4:{4 items
+"app_id":string"main"
+"id":string"ai_BrnHNkt0"
+"name":string"coffee"
+"value":float0.93534774
+}
+5:{4 items
+"app_id":string"main"
+"id":string"ai_86sS08Pw"
+"name":string"wear"
+"value":float0.9346629
+}
+6:{4 items
+"app_id":string"main"
+"id":string"ai_btvp5RXz"
+"name":string"shopping"
+"value":float0.93354297
+}
+7:{4 items
+"app_id":string"main"
+"id":string"ai_dxSG2s86"
+"name":string"man"
+"value":float0.9285458
+}
+8:{4 items
+"app_id":string"main"
+"id":string"ai_RQccV41p"
+"name":string"woman"
+"value":float0.9241644
+}
+9:{4 items
+"app_id":string"main"
+"id":string"ai_VwgFdwlF"
+"name":string"scissors"
+"value":float0.9240512
+}
+10:{4 items
+"app_id":string"main"
+"id":string"ai_Fd9v0723"
+"name":string"kind"
+"value":float0.92106533
+}
+11:{4 items
+"app_id":string"main"
+"id":string"ai_786Zr311"
+"name":string"no person"
+"value":float0.91925067
+}
+12:{4 items
+"app_id":string"main"
+"id":string"ai_Pf2b7clG"
+"name":string"indoors"
+"value":float0.9069234
+}
+13:{4 items
+"app_id":string"main"
+"id":string"ai_l24PsHFc"
+"name":string"option"
+"value":float0.8909703
+}
+14:{4 items
+"app_id":string"main"
+"id":string"ai_sTB9Jjfn"
+"name":string"merchandise"
+"value":float0.88953674
+}
+15:{4 items
+"app_id":string"main"
+"id":string"ai_5zxp1Pbd"
+"name":string"luggage"
+"value":float0.8864228
+}
+16:{4 items
+"app_id":string"main"
+"id":string"ai_zFnPQdgB"
+"name":string"wood"
+"value":float0.8717494
+}
+17:{4 items
+"app_id":string"main"
+"id":string"ai_pCnxWJZh"
+"name":string"contemporary"
+"value":float0.8659245
+}
+18:{4 items
+"app_id":string"main"
+"id":string"ai_9bHlLt8r"
+"name":string"paper"
+"value":float0.8476449
+}
+19:{4 items
+"app_id":string"main"
+"id":string"ai_j09mzT6j"
+"name":string"family"
+"value":float0.83743376
+}
+]
+}
+"input":{2 items
+"data":{1 item
+"image":{1 item
+"url":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+"id":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+1:{2 items
+"data":{1 item
+"concepts":[20 items
+0:{4 items
+"app_id":string"main"
+"id":string"ai_fbqvMwRm"
+"name":string"wildlife"
+"value":float0.9954411
+}
+1:{4 items
+"app_id":string"main"
+"id":string"ai_DKCdHwRQ"
+"name":string"elephant"
+"value":float0.99527895
+}
+2:{4 items
+"app_id":string"main"
+"id":string"ai_43sQsmXM"
+"name":string"safari"
+"value":float0.990524
+}
+3:{4 items
+"app_id":string"main"
+"id":string"ai_786Zr311"
+"name":string"no person"
+"value":float0.98683923
+}
+4:{4 items
+"app_id":string"main"
+"id":string"ai_XtHKkR7k"
+"name":string"african elephant"
+"value":float0.98654747
+}
+5:{4 items
+"app_id":string"main"
+"id":string"ai_N6BnC4br"
+"name":string"mammal"
+"value":float0.9831754
+}
+6:{4 items
+"app_id":string"main"
+"id":string"ai_mp9KG5QH"
+"name":string"grass"
+"value":float0.96997774
+}
+7:{4 items
+"app_id":string"main"
+"id":string"ai_SzsXMB1w"
+"name":string"animal"
+"value":float0.9583363
+}
+8:{4 items
+"app_id":string"main"
+"id":string"ai_Zwj7hvc5"
+"name":string"savanna"
+"value":float0.95581716
+}
+9:{4 items
+"app_id":string"main"
+"id":string"ai_D7gPtGj0"
+"name":string"herd"
+"value":float0.9501747
+}
+10:{4 items
+"app_id":string"main"
+"id":string"ai_702282rX"
+"name":string"grassland"
+"value":float0.9431625
+}
+11:{4 items
+"app_id":string"main"
+"id":string"ai_tBcWlsCp"
+"name":string"nature"
+"value":float0.9250031
+}
+12:{4 items
+"app_id":string"main"
+"id":string"ai_HDqK5lNg"
+"name":string"wild"
+"value":float0.92200804
+}
+13:{4 items
+"app_id":string"main"
+"id":string"ai_Lcm81jLH"
+"name":string"ivory"
+"value":float0.9143535
+}
+14:{4 items
+"app_id":string"main"
+"id":string"ai_d7mQnBhJ"
+"name":string"barbaric"
+"value":float0.9110915
+}
+15:{4 items
+"app_id":string"main"
+"id":string"ai_pvHNj05T"
+"name":string"calf"
+"value":float0.90723914
+}
+16:{4 items
+"app_id":string"main"
+"id":string"ai_dl623ltt"
+"name":string"Mara"
+"value":float0.88977844
+}
+17:{4 items
+"app_id":string"main"
+"id":string"ai_Zmhsv0Ch"
+"name":string"outdoors"
+"value":float0.8885425
+}
+18:{4 items
+"app_id":string"main"
+"id":string"ai_D2QTphLz"
+"name":string"large"
+"value":float0.8807519
+}
+19:{4 items
+"app_id":string"main"
+"id":string"ai_KtXmGqNl"
+"name":string"open field"
+"value":float0.87316555
+}
+]
+}
+"input":{2 items
+"data":{1 item
+"image":{1 item
+"url":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+"id":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+2:{2 items
+"data":{1 item
+"concepts":[20 items
+0:{4 items
+"app_id":string"main"
+"id":string"ai_786Zr311"
+"name":string"no person"
+"value":float0.9877242
+}
+1:{4 items
+"app_id":string"main"
+"id":string"ai_KxdqqmvC"
+"name":string"bread"
+"value":float0.98571986
+}
+2:{4 items
+"app_id":string"main"
+"id":string"ai_3HC4tJF5"
+"name":string"bun"
+"value":float0.98296124
+}
+3:{4 items
+"app_id":string"main"
+"id":string"ai_pxw6VtDR"
+"name":string"burger"
+"value":float0.98103744
+}
+4:{4 items
+"app_id":string"main"
+"id":string"ai_TDhj9B1w"
+"name":string"unhealthy"
+"value":float0.97804785
+}
+5:{4 items
+"app_id":string"main"
+"id":string"ai_7D0mdp1W"
+"name":string"delicious"
+"value":float0.97692627
+}
+6:{4 items
+"app_id":string"main"
+"id":string"ai_dSCKh8xv"
+"name":string"fast"
+"value":float0.9699593
+}
+7:{4 items
+"app_id":string"main"
+"id":string"ai_hJpmfcGg"
+"name":string"lunch"
+"value":float0.9652152
+}
+8:{4 items
+"app_id":string"main"
+"id":string"ai_3PlgVmlN"
+"name":string"food"
+"value":float0.9636648
+}
+9:{4 items
+"app_id":string"main"
+"id":string"ai_KH9hS7Ks"
+"name":string"sesame"
+"value":float0.95916176
+}
+10:{4 items
+"app_id":string"main"
+"id":string"ai_5h1JWR2x"
+"name":string"lettuce"
+"value":float0.94594234
+}
+11:{4 items
+"app_id":string"main"
+"id":string"ai_GZQdCngV"
+"name":string"french fries"
+"value":float0.93786734
+}
+12:{4 items
+"app_id":string"main"
+"id":string"ai_s9XQJtDb"
+"name":string"dinner"
+"value":float0.93761605
+}
+13:{4 items
+"app_id":string"main"
+"id":string"ai_nl2sV1Hm"
+"name":string"nutrition"
+"value":float0.9263987
+}
+14:{4 items
+"app_id":string"main"
+"id":string"ai_zFnPQdgB"
+"name":string"wood"
+"value":float0.92229015
+}
+15:{4 items
+"app_id":string"main"
+"id":string"ai_7HKB9Zdr"
+"name":string"beef"
+"value":float0.91798955
+}
+16:{4 items
+"app_id":string"main"
+"id":string"ai_sS8ZsLHW"
+"name":string"sandwich"
+"value":float0.9159389
+}
+17:{4 items
+"app_id":string"main"
+"id":string"ai_cdh42nWJ"
+"name":string"cheese"
+"value":float0.9033767
+}
+18:{4 items
+"app_id":string"main"
+"id":string"ai_M98WvzLF"
+"name":string"rustic"
+"value":float0.9026189
+}
+19:{4 items
+"app_id":string"main"
+"id":string"ai_R6xGCTcC"
+"name":string"meat"
+"value":float0.89554334
+}
+]
+}
+"input":{2 items
+"data":{1 item
+"image":{1 item
+"url":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+"id":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+3:{2 items
+"data":{1 item
+"concepts":[20 items
+0:{4 items
+"app_id":string"main"
+"id":string"ai_LplXDDZ2"
+"name":string"car"
+"value":float0.99991035
+}
+1:{4 items
+"app_id":string"main"
+"id":string"ai_0mRVT04T"
+"name":string"dashboard"
+"value":float0.99832135
+}
+2:{4 items
+"app_id":string"main"
+"id":string"ai_WTrlNkqM"
+"name":string"vehicle"
+"value":float0.99603856
+}
+3:{4 items
+"app_id":string"main"
+"id":string"ai_Xxjc3MhT"
+"name":string"transportation system"
+"value":float0.9904703
+}
+4:{4 items
+"app_id":string"main"
+"id":string"ai_K2d5Ps8r"
+"name":string"automotive"
+"value":float0.9889642
+}
+5:{4 items
+"app_id":string"main"
+"id":string"ai_Vl93x2zk"
+"name":string"dial"
+"value":float0.98611623
+}
+6:{4 items
+"app_id":string"main"
+"id":string"ai_hsG8bzf6"
+"name":string"drive"
+"value":float0.98607767
+}
+7:{4 items
+"app_id":string"main"
+"id":string"ai_9MHSc8T5"
+"name":string"classic"
+"value":float0.9855716
+}
+8:{4 items
+"app_id":string"main"
+"id":string"ai_jmQRhNDh"
+"name":string"chrome"
+"value":float0.97948885
+}
+9:{4 items
+"app_id":string"main"
+"id":string"ai_FRShPQVC"
+"name":string"speedometer"
+"value":float0.97597593
+}
+10:{4 items
+"app_id":string"main"
+"id":string"ai_dSCKh8xv"
+"name":string"fast"
+"value":float0.9759469
+}
+11:{4 items
+"app_id":string"main"
+"id":string"ai_786Zr311"
+"name":string"no person"
+"value":float0.96591204
+}
+12:{4 items
+"app_id":string"main"
+"id":string"ai_BwCv02zV"
+"name":string"shift"
+"value":float0.962606
+}
+13:{4 items
+"app_id":string"main"
+"id":string"ai_94LHtnHg"
+"name":string"dash"
+"value":float0.95985943
+}
+14:{4 items
+"app_id":string"main"
+"id":string"ai_f58d24VF"
+"name":string"speed"
+"value":float0.9574071
+}
+15:{4 items
+"app_id":string"main"
+"id":string"ai_xh4vNZQL"
+"name":string"power"
+"value":float0.95061535
+}
+16:{4 items
+"app_id":string"main"
+"id":string"ai_3PvN9XlX"
+"name":string"nostalgia"
+"value":float0.947096
+}
+17:{4 items
+"app_id":string"main"
+"id":string"ai_PSGWXb0P"
+"name":string"steering wheel"
+"value":float0.945403
+}
+18:{4 items
+"app_id":string"main"
+"id":string"ai_gRZHdRD7"
+"name":string"wheel"
+"value":float0.94500744
+}
+19:{4 items
+"app_id":string"main"
+"id":string"ai_z6b4jqWx"
+"name":string"convertible"
+"value":float0.93777865
+}
+]
+}
+"input":{2 items
+"data":{1 item
+"image":{1 item
+"url":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+"id":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+4:{2 items
+"data":{1 item
+"concepts":[20 items
+0:{4 items
+"app_id":string"main"
+"id":string"ai_swtdphX8"
+"name":string"love"
+"value":float0.9948383
+}
+1:{4 items
+"app_id":string"main"
+"id":string"ai_RQccV41p"
+"name":string"woman"
+"value":float0.98094326
+}
+2:{4 items
+"app_id":string"main"
+"id":string"ai_vhvTrLRT"
+"name":string"affection"
+"value":float0.97552943
+}
+3:{4 items
+"app_id":string"main"
+"id":string"ai_qQfFFhsc"
+"name":string"togetherness"
+"value":float0.975349
+}
+4:{4 items
+"app_id":string"main"
+"id":string"ai_hwN1N4n7"
+"name":string"romance"
+"value":float0.972969
+}
+5:{4 items
+"app_id":string"main"
+"id":string"ai_Zmhsv0Ch"
+"name":string"outdoors"
+"value":float0.9649146
+}
+6:{4 items
+"app_id":string"main"
+"id":string"ai_dxSG2s86"
+"name":string"man"
+"value":float0.96443397
+}
+7:{4 items
+"app_id":string"main"
+"id":string"ai_TJ9wFfK5"
+"name":string"portrait"
+"value":float0.9633709
+}
+8:{4 items
+"app_id":string"main"
+"id":string"ai_vS89QbDf"
+"name":string"embrace"
+"value":float0.96115255
+}
+9:{4 items
+"app_id":string"main"
+"id":string"ai_V2F286Wn"
+"name":string"fun"
+"value":float0.9389904
+}
+10:{4 items
+"app_id":string"main"
+"id":string"ai_FsT0Zqdb"
+"name":string"summer"
+"value":float0.93594724
+}
+11:{4 items
+"app_id":string"main"
+"id":string"ai_tBcWlsCp"
+"name":string"nature"
+"value":float0.93186086
+}
+12:{4 items
+"app_id":string"main"
+"id":string"ai_3DGtDKQp"
+"name":string"couple"
+"value":float0.92982864
+}
+13:{4 items
+"app_id":string"main"
+"id":string"ai_xQbBc1zb"
+"name":string"girl"
+"value":float0.926495
+}
+14:{4 items
+"app_id":string"main"
+"id":string"ai_j09mzT6j"
+"name":string"family"
+"value":float0.91666144
+}
+15:{4 items
+"app_id":string"main"
+"id":string"ai_l8TKp2h5"
+"name":string"people"
+"value":float0.9108792
+}
+16:{4 items
+"app_id":string"main"
+"id":string"ai_h5XcQZfx"
+"name":string"laughing"
+"value":float0.9005651
+}
+17:{4 items
+"app_id":string"main"
+"id":string"ai_5Nh58JzD"
+"name":string"joy"
+"value":float0.89971066
+}
+18:{4 items
+"app_id":string"main"
+"id":string"ai_GxSDhQ34"
+"name":string"facial expression"
+"value":float0.89894253
+}
+19:{4 items
+"app_id":string"main"
+"id":string"ai_Bs7Qsx2t"
+"name":string"enjoyment"
+"value":float0.8757525
+}
+]
+}
+"input":{2 items
+"data":{1 item
+"image":{1 item
+"url":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+"id":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+]
+}
+"languages":[]0 items
+"import_info":{}0 items
+"workflow_recommended":boolfalse
+}
+"input":{2 items
+"id":string"03d23d9404d04c6ca84155638112e3ab"
+"data":{1 item
+"image":{1 item
+"url":string"https://s3.amazonaws.com/samples.clarifai.com/feat..."
+}
+}
+}
+"data":{1 item
+"concepts":[20 items
+0:{4 items
+"id":string"ai_dngMN46t"
+"name":string"fashion"
+"value":float0.9934012
+"app_id":string"main"
+}
+1:{4 items
+"id":string"ai_6lhccv44"
+"name":string"business"
+"value":float0.96976256
+"app_id":string"main"
+}
+2:{4 items
+"id":string"ai_tdzjP35h"
+"name":string"leather"
+"value":float0.96506464
+"app_id":string"main"
+}
+3:{4 items
+"id":string"ai_1p2zMmqb"
+"name":string"retro"
+"value":float0.9541117
+"app_id":string"main"
+}
+4:{4 items
+"id":string"ai_BrnHNkt0"
+"name":string"coffee"
+"value":float0.9353478
+"app_id":string"main"
+}
+5:{4 items
+"id":string"ai_86sS08Pw"
+"name":string"wear"
+"value":float0.934663
+"app_id":string"main"
+}
+6:{4 items
+"id":string"ai_btvp5RXz"
+"name":string"shopping"
+"value":float0.93354297
+"app_id":string"main"
+}
+7:{4 items
+"id":string"ai_dxSG2s86"
+"name":string"man"
+"value":float0.9285457
+"app_id":string"main"
+}
+8:{4 items
+"id":string"ai_RQccV41p"
+"name":string"woman"
+"value":float0.9241644
+"app_id":string"main"
+}
+9:{4 items
+"id":string"ai_VwgFdwlF"
+"name":string"scissors"
+"value":float0.9240514
+"app_id":string"main"
+}
+10:{4 items
+"id":string"ai_Fd9v0723"
+"name":string"kind"
+"value":float0.92106545
+"app_id":string"main"
+}
+11:{4 items
+"id":string"ai_786Zr311"
+"name":string"no person"
+"value":float0.91925067
+"app_id":string"main"
+}
+12:{4 items
+"id":string"ai_Pf2b7clG"
+"name":string"indoors"
+"value":float0.9069234
+"app_id":string"main"
+}
+13:{4 items
+"id":string"ai_l24PsHFc"
+"name":string"option"
+"value":float0.8909703
+"app_id":string"main"
+}
+14:{4 items
+"id":string"ai_sTB9Jjfn"
+"name":string"merchandise"
+"value":float0.8895369
+"app_id":string"main"
+}
+15:{4 items
+"id":string"ai_5zxp1Pbd"
+"name":string"luggage"
+"value":float0.8864229
+"app_id":string"main"
+}
+16:{4 items
+"id":string"ai_zFnPQdgB"
+"name":string"wood"
+"value":float0.87174946
+"app_id":string"main"
+}
+17:{4 items
+"id":string"ai_pCnxWJZh"
+"name":string"contemporary"
+"value":float0.8659246
+"app_id":string"main"
+}
+18:{4 items
+"id":string"ai_9bHlLt8r"
+"name":string"paper"
+"value":float0.84764475
+"app_id":string"main"
+}
+19:{4 items
+"id":string"ai_j09mzT6j"
+"name":string"family"
+"value":float0.837434
+"app_id":string"main"
+}
+]
+}
+}
+]
+}
